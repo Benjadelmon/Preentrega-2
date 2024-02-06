@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar bg-icecream navbar-expand-md">
+            <section class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/images/Antfit.png"
+                    class="logo" alt="Antfit logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <article class="offcanvas offcanvas-end bg-icecream" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Antfit</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./Sobre nosotros.html">Sobre nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./Planes.html">Planes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./Testimonios.html">Testimonios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./Contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </nav>
+
+        <section class="hero">
+            <article> <!--así me queda más responsive-->
+            <h1 class="text-white display-1">El poder de estar en forma</h1>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, facilis!</p>
+            </article>
+            <article>
+                <a href="./Planes.html" class="btn btn-primary">Planes</a>
+                <a href="./Testimonios.html" class="btn btn-primary">Testimonios</a>
+            </article>
+        </section>
+    </header>
+
+    <main class="my-5">
+
+        <section class="contacto">
+            <article>
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" name="nombre" placeholder="Escriba su nombre">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Escriba su correo electrónico">
+                <label for="tel">Teléfono:</label>
+                <input type="number" name="tel" placeholder="Escriba su Teléfono">
+            </article>
+            <article>
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
+                <label for="checkbox">Acepto términos y condiciones</label>
+                <input type="checkbox" name="checkbox">
+                <input type="submit" value="Enviar">
+                
+            </article>
+        </section>
+
+</section>
+    </main>
+
+    <footer class="bg-icecream p-5 text-center">
+        <p>@ANtfit.entrena</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
